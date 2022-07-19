@@ -1,0 +1,10 @@
+package module1;
+
+public class refForProtected {
+	protected void display() 
+    { 
+        System.out.println("This is protected access specifier"); 
+    } 
+
+}
+

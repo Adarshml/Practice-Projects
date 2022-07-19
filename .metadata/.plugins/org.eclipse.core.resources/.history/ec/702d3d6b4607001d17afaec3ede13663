@@ -1,0 +1,53 @@
+package module1;
+
+class defaultAccessSpecifier {
+	void display() {
+		System.out.println("You are using defalut access specifier");
+	}
+}
+
+class privateAccessSpecifier {
+	private void displayprivate() {
+		System.out.println("You are using private access specifier");
+	}
+}
+
+class proaccessspecifiers {
+
+	protected void displayprotected() {
+		System.out.println("This is protected access specifier");
+	}
+}
+
+class pro2 extends proaccessspecifiers {
+}
+
+class publicAccessSpecifiers {
+	public void displayPublic() {
+		System.out.println("This is public access specifier");
+	}
+
+}
+
+public class accessModifiers {
+	
+	public static void main(String[] args) {
+		System.out.println("Dafault Access Specifier");
+		defaultAccessSpecifier obj1 = new defaultAccessSpecifier();
+		obj1.display();
+
+		System.out.println("Private Access Specifier");
+		privateAccessSpecifier obj2 = new privateAccessSpecifier();
+		// obj2.displayprivate();
+		// cannot access methods of private class
+
+		System.out.println("Protected Access Specifier");
+		proaccessspecifiers obj3 = new proaccessspecifiers();
+		obj3.displayprotected();
+
+		pro2 obj4 = new pro2();
+		obj4.displayprotected();
+
+	}
+
+}

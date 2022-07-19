@@ -1,0 +1,20 @@
+package module2;
+
+import java.util.*;
+
+public class map {
+	public static void main(String[] args) {
+		// Hash map
+		HashMap<Integer, String> hm = new HashMap<Integer, String>();
+		hm.put(101, "abc");
+		hm.put(102, "pqr");
+		hm.put(103, "xyz");
+		
+		System.out.println("\nThe elements of Hashmap are ");
+		for (Map.Entry m : hm.entrySet()) {
+			System.out.println(m.getKey() + " " + m.getValue());
+		}
+
+	}
+
+}

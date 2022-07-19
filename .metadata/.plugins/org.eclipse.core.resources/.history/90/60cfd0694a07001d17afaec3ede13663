@@ -1,0 +1,12 @@
+package accessSpecifiers;
+import module1.refForProtected;
+
+public class protectedAccessSpecifier extends refForPrivate {
+	
+	public static void main(String[] args) {
+		refForPrivate obj = new refForPrivate ();   
+	       obj.display();  
+	}
+
+
+}

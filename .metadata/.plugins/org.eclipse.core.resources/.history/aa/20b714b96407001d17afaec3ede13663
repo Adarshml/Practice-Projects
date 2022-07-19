@@ -1,0 +1,18 @@
+package module2;
+
+public class innerClass {
+	String s = "Good Morning";
+
+	class inner {
+		void hello() {
+			System.out.println(s + "All");
+		}
+	}
+
+	public static void main(String[] args) {
+		innerClass obj = new innerClass();
+		innerClass.inner in = obj.new inner();
+		in.hello();
+	}
+
+}

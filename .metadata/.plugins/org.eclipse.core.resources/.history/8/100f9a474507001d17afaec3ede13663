@@ -1,0 +1,24 @@
+package module1;
+
+public class typeCasting {
+	
+	public static void main(String[] args) {
+		char a = 'a';
+		int b;
+		float c;
+		b = a;
+		System.out.println("Implicit type casting ");
+		System.out.println("character to int " + b);
+		c = b;
+		System.out.println("int to float " + c);
+		System.out.println();
+
+		System.out.println("Explicit type casting ");
+		double x = 97.52;
+		int y = (int) x;
+		System.out.println("long to int " + y);
+		char z = (char) y;
+		System.out.println("int to char " + z);
+	}
+
+}
