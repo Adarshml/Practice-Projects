@@ -1,0 +1,12 @@
+package module2;
+
+public class string {
+	public static void main(String[] args) {
+		//String Methods
+		System.out.println("String Methods");
+		String s1 = new String("Hello");
+		System.out.println("Length = "+ s1.length());
+		
+	}
+
+}
