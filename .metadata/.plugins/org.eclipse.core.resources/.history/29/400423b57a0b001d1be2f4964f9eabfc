@@ -1,0 +1,12 @@
+package oops;
+
+public class TestEncapsulation {
+	public static void main(String[] args) {
+		Encpsulation obj = new Encpsulation(); 
+		obj.setname("Smith");
+		obj.setage(22);
+		obj.getName();
+		obj.getAge();
+	}
+
+}

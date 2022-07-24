@@ -1,0 +1,17 @@
+package module3;
+
+import java.util.Scanner;
+
+public class myReader {
+	public static void main(String[] args) {
+		 //read content
+	    Scanner myReader = new Scanner(file);
+	    while(MyReader.hasNextLine()) {
+	  	  String data = myReader.nextLine();
+	    }
+	    
+	}
+	
+	
+
+}
