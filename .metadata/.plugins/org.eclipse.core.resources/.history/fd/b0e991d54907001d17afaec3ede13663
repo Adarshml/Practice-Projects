@@ -1,9 +1,0 @@
-package module1;
-
-public class refForPrivate {
-	protected void display() 
-    { 
-        System.out.println("This is protected access specifier"); 
-    } 
-
-}
