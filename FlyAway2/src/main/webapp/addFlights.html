@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+body {
+	background-image: url("https://wallpaperaccess.com/full/254361.jpg");
+	background-size: cover;
+}
+
+.field {
+	background-color: #1D2F5A;
+	display: block;
+	margin-left: 500px;
+	margin-right: 500px;
+	padding-top: 0.35em;
+	padding-bottom: 0.625em;
+	padding-left: 0.75em;
+	padding-right: 0.75em;
+	border: 2px groove(internal value);
+}
+</style>
+<title>Add Flights</title>
+</head>
+<body>
+	<br>
+	<fieldset class="field">
+		<h3 style='color: white; text-align: center;'>ENTER FLIGHT
+			DETAILS</h3>
+		<br>
+		<form method="post" action="addflightdata">
+			<table>
+				<tr>
+					<td style='color: white;'>Name of Airline</td>
+					<td><input type="text" name="airline" id="airline"></td>
+				</tr>
+				<tr>
+					<td style='color: white;'>Source</td>
+					<td><input type="text" name="source" id="source"></td>
+				</tr>
+				<tr>
+					<td style='color: white;'>Destination</td>
+					<td><input type="text" name="destination" id="destination"></td>
+				</tr>
+				<tr>
+					<td style='color: white;'>Ticket Price</td>
+					<td><input type="text" name="price" id="price"></td>
+				</tr>
+				<tr>
+					<td style='color: white;'>Enter Available Days (Eg: Sunday)</td>
+					<td><input type="text" name="availabledays" id="availabledays"></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><input type="submit" value="Add Flight"></td>
+				</tr>
+			</table>
+		</form>
+	</fieldset>
+
+</body>
+</html>

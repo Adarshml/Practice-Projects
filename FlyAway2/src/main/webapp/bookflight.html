@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+	background-image: url("https://wallpaperaccess.com/full/254361.jpg");
+	background-size: cover;
+}
+
+.field {
+	background-color: #1D2F5A;
+	display: block;
+	margin-left: 550px;
+	margin-right: 550px;
+	padding-top: 0.35em;
+	padding-bottom: 0.625em;
+	padding-left: 0.75em;
+	padding-right: 0.75em;
+	border: 2px groove(internal value);
+}
+</style>
+<meta charset="UTF-8">
+<title>Book a Flight</title>
+</head>
+<body>
+	<br>
+	<fieldset class="field">
+		<h3 style='color: white; text-align: center;'>FLIGHT ID</h3>
+		<br>
+		<form action="userbooking" method="post">
+			<table>
+				<tr>
+					<td style='color: white;'>Enter Flight ID to book</td>
+					<td><input type="number" name="flightnumber"></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><input type="submit" value="Book Flight"></td>
+				</tr>
+			</table>
+		</form>
+	</fieldset>
+
+</body>
+</html>

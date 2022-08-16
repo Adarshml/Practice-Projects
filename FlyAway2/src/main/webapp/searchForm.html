@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+	background-image: url("https://wallpaperaccess.com/full/254361.jpg");
+	background-size: cover;
+}
+
+.field {
+	background-color: #1D2F5A;
+	display: block;
+	margin-left: 500px;
+	margin-right: 500px;
+	padding-top: 0.35em;
+	padding-bottom: 0.625em;
+	padding-left: 0.75em;
+	padding-right: 0.75em;
+	border: 2px groove(internal value);
+}
+</style>
+<meta charset="ISO-8859-1">
+<title>Customer Details</title>
+</head>
+<body>
+	<br>
+	<fieldset class="field">
+		<h3 style='color: white; text-align: center;'>ENTER YOUR TRAVEL
+			DETAILS</h3>
+		<form action="availableflights"
+			style="font-family: Arial; font-size: 21px;">
+			<table>
+				<tr>
+					<td style='color: white;'>Your Name</td>
+					<td><input type="text" name="username" required /></td>
+				</tr>
+				<tr>
+					<td style='color: white;'>Date of Travel</td>
+					<td><input type="text" name="dateoftravel" required /></td>
+				</tr>
+				<tr>
+					<td style='color: white;'>Current City</td>
+					<td><input type="text" name="source" required /></td>
+				</tr>
+				<tr>
+					<td style='color: white;'>Destination City</td>
+					<td><input type="text" name="destination" required /></td>
+				</tr>
+				<tr>
+					<td style='color: white;'>Number of Travellers<sub><sub>(1
+								- 10)</sub></sub> :
+					</td>
+					<td><input type="number" name="numberofpersons" required /></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><input type="submit" value="Proceed Ahead"></td>
+				</tr>
+			</table>
+
+		</form>
+	</fieldset>
+</body>
+</html>

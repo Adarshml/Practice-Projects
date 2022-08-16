@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<style>
+body {
+	background-image: url("https://wallpaperaccess.com/full/254361.jpg");
+	background-size: cover;
+}
+
+.field {
+	background-color: #1D2F5A;
+	display: block;
+	margin-left: 600px;
+	margin-right: 600px;
+	padding-top: 0.35em;
+	padding-bottom: 0.625em;
+	padding-left: 0.75em;
+	padding-right: 0.75em;
+	border: 2px groove(internal value);
+}
+</style>
+<title>Make Payment</title>
+</head>
+<body>
+	<br>
+	<br>
+	<h2 align="center">ENTER YOUR PAYMENT DETAILS</h2>
+
+	<fieldset class="field">
+		<h3 style='color: white; text-align: center;'>BANK DETAILS</h3>
+		<br>
+		<form action="payment">
+			<table>
+				<tr>
+					<td style='color: white;'>Bank Name</td>
+					<td><input type="text" name="bankname" required></td>
+				</tr>
+				<tr>
+					<td style='color: white;'>Card Number</td>
+					<td><input type="text" name="cardnumber" required></td>
+				</tr>
+				<tr>
+					<td style='color: white;'>Enter password</td>
+					<td><input type="password" name="paymentpassword" required></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><input style='color: 1D2F5A; text-align: center;'
+						type="submit" value="Continue"></td>
+				</tr>
+			</table>
+		</form>
+	</fieldset>
+
+</body>
+</html>
