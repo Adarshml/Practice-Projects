@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.pageContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.signUpPage-container {
+  width: 100vw;
+  padding: 0;
+}
+.navBar {
+  background-color: #127c63;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  height: fit-content;
+}
+ul {
+  margin: 1.5rem 0;
+  padding: 0;
+  text-align: center;
+}
+
+.navBar li {
+  list-style: none;
+  display: inline;
+  width: 100%;
+  font-size: 14px;
+  color: #ffffff;
+  margin: 0 2rem;
+  font-family: Arial;
+}
+
+.navBar li:hover,
+li:focus {
+  color: #04281a;
+  padding-bottom: 1.2rem;
+  border-bottom: 3px solid #d9e3e6;
+}
+
+.signUpPage-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.center-content {
+  height: 120vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.formOuter-container {
+  height: 650px;
+  border: 1px solid #d8d8d8;
+  border-radius: 31px;
+  padding: 0.2rem 2rem;
+  cursor: pointer;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+}
+
+.formInner-container {
+  width: 491.12px;
+  height: 400px;
+}
+
+.formInner-container h1 {
+  margin-top: 1.3rem;
+  color: #065839;
+  font-family: "Open Sans", sans-serif;
+}
+
+.formInner-container p {
+  color: #043429;
+  opacity: 70%;
+  font-size: 14.03px;
+  font-family: "Open Sans", sans-serif;
+}
+
+form .input-group {
+  height: 3.5rem;
+  padding: 1rem 2rem;
+  background-color: #f0f5f8;
+  border-radius: 8.77px;
+  margin: 1rem 0;
+}
+
+
+.input-group input {
+  border: none;
+  background: transparent;
+  color: #000000;
+  font-size: 15.79px;
+  /* opacity: 50%; */
+  width: 250px;
+}
+input::placeholder {
+  color: #818f93;
+}
+.input-group label,
+i,
+th {
+  color: #127c63;
+}
+
+
+form button {
+  height: 4rem;
+  width: 100%;
+  border: none;
+  border-radius: 8.77px;
+  background-color: #127c63;
+  font-size: 15.79px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #065839;
+}
+a {
+  text-decoration: none;
+  color: #ffffff !important;
+}
+
+a:hover {
+  color: #063624 !important;
+ 
+}
+
+div#expValue {
+  height: 70vh;
+  overflow-y: scroll;
+  padding: 1rem;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+}
+
+h1 {
+  font-size: 25px;
+}
+
+h2 {
+  color: #127c63;
+  text-align: right;
+}
+
+input {
+  padding-left: 1rem;
+}
+.expenses-header {
+  border-radius: 1rem;
+  padding: 0.5rem;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px,
+    rgba(17, 17, 26, 0.1) 0px 0px 8px;
+}
