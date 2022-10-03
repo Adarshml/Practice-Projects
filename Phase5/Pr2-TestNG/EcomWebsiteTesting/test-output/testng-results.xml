@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-03T00:41:34 IST" name="Suite" finished-at="2022-10-03T00:41:53 IST" duration-ms="19232">
+    <groups>
+    </groups>
+    <test started-at="2022-10-03T00:41:34 IST" name="Test" finished-at="2022-10-03T00:41:53 IST" duration-ms="19232">
+      <class name="mystore.AutomateLogin">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:mystore.AutomateLogin@342c38f8]" started-at="2022-10-03T00:41:36 IST" name="setUp" finished-at="2022-10-03T00:41:36 IST" duration-ms="813" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="login()[pri:0, instance:mystore.AutomateLogin@342c38f8]" started-at="2022-10-03T00:41:40 IST" name="login" finished-at="2022-10-03T00:41:41 IST" duration-ms="1049" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mystore.AutomateLogin@342c38f8]" started-at="2022-10-03T00:41:53 IST" name="tearDown" finished-at="2022-10-03T00:41:53 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- mystore.AutomateLogin -->
+      <class name="mystore.AddToCart">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:mystore.AddToCart@c88a337]" started-at="2022-10-03T00:41:34 IST" name="setUp" finished-at="2022-10-03T00:41:36 IST" duration-ms="1952" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="searchAndAddproduct()[pri:0, instance:mystore.AddToCart@c88a337]" started-at="2022-10-03T00:41:41 IST" name="searchAndAddproduct" finished-at="2022-10-03T00:41:53 IST" duration-ms="11696" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchAndAddproduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mystore.AddToCart@c88a337]" started-at="2022-10-03T00:41:53 IST" name="tearDown" finished-at="2022-10-03T00:41:53 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- mystore.AddToCart -->
+      <class name="mystore.AutomateSignup">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:mystore.AutomateSignup@4f2b503c]" started-at="2022-10-03T00:41:36 IST" name="setUp" finished-at="2022-10-03T00:41:37 IST" duration-ms="806" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="signUp()[pri:0, instance:mystore.AutomateSignup@4f2b503c]" started-at="2022-10-03T00:41:37 IST" name="signUp" finished-at="2022-10-03T00:41:40 IST" duration-ms="2870" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mystore.AutomateSignup@4f2b503c]" started-at="2022-10-03T00:41:53 IST" name="tearDown" finished-at="2022-10-03T00:41:53 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- mystore.AutomateSignup -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
